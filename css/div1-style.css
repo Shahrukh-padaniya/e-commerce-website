@@ -1,0 +1,38 @@
+/* div1 container */
+.prime-div1{
+    position: relative;
+}
+/* div1 image */
+.site-bkg{
+    position: relative;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.div1-title{
+    position: absolute;
+    z-index:500;
+    top:180px;
+    left:25%;
+    color:#e0eff2;
+    text-shadow: 2px 2px 5px #000000,-2px -2px 5px #000000,5px 5px 10px rgb(87, 78, 78),-5px -5px 10px rgb(55, 50, 50);
+}
+
+.div1-info{
+    position: absolute;
+    top:240px;
+    left:25%;
+    z-index:500;
+    margin-top:20px;
+    
+    width:45%;
+}
+.div1-button{
+    position: absolute;
+    top:450px;
+    left:25%;
+    z-index:500;
+    margin-top:20px;
+    /* padding:10px; */
+}
